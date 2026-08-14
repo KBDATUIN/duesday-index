@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Duesday</title>
+<meta name="description" content="Privacy policy for Duesday, an offline-first deadline tracker for students.">
+<style>
+  :root {
+    --primary: #4F46E5;
+    --bg: #F6F7FB;
+    --surface: #FFFFFF;
+    --text: #1A1B25;
+    --muted: #575C68;
+    --outline: #D8DAE3;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    background: linear-gradient(135deg, #4F46E5 0%, #0D9488 100%);
+    color: #fff;
+    padding: 48px 20px 40px;
+    text-align: center;
+  }
+  header h1 { font-size: 28px; font-weight: 800; letter-spacing: -0.5px; }
+  header p { margin-top: 6px; opacity: .9; font-size: 15px; }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 20px 64px;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+  .badge {
+    background: var(--surface);
+    border: 1px solid var(--outline);
+    border-radius: 999px;
+    padding: 4px 14px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .badge strong { color: var(--text); }
+  section {
+    background: var(--surface);
+    border: 1px solid var(--outline);
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin-bottom: 14px;
+  }
+  h2 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--primary);
+  }
+  p { margin-bottom: 10px; }
+  ul { padding-left: 20px; margin: 8px 0 12px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--text); }
+  .short {
+    background: #E0E7FF;
+    border: 1px solid #C7D2FE;
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin-bottom: 16px;
+  }
+  .short h2 { color: #3730A3; }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    padding: 0 20px 48px;
+  }
+  footer a { color: var(--primary); text-decoration: none; }
+  @media (max-width: 480px) {
+    header h1 { font-size: 24px; }
+    section { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Duesday</h1>
+  <p>Deadline tracker for students — Privacy Policy</p>
+</header>
+
+<main>
+  <div class="meta">
+    <span class="badge"><strong>Effective Date:</strong> August 14, 2026</span>
+    <span class="badge">Duesday Android app</span>
+  </div>
+
+  <div class="short">
+    <h2>Short version</h2>
+    <p>Your requirements, deadlines and settings are stored <strong>only on your device</strong>. There are <strong>no accounts, no ads, no analytics, and no tracking</strong>. The only time anything leaves your device is when you actively use the optional AI note scanner or AI priority suggestion, which sends the specific notes/photo you choose (or the text you typed) to Google's Gemini service for one-time processing.</p>
+  </div>
+
+  <section>
+    <h2>1. Local Data Storage</h2>
+    <p>DUESDAY stores all of the following <strong>locally on your device</strong> (in the app's private on-device database and preferences):</p>
+    <ul>
+      <li><strong>Requirements you add</strong> — title, subject, type, description, deadline, estimated hours, priority, status, creation date, repeat settings, and notes.</li>
+      <li><strong>App preferences</strong> — reminder settings, calendar start-of-week, theme, and tutorial state.</li>
+    </ul>
+    <p>We do <strong>not</strong> use user accounts, ads, analytics, or tracking scripts. Nothing in this section is transmitted anywhere.</p>
+    <h2 style="margin-top:12px;">Reminders &amp; widgets</h2>
+    <p>If you enable reminders, the app schedules <strong>local notifications</strong> on your device (notification permission is requested on Android 13+). Home-screen widgets read your requirements locally. Neither sends data anywhere.</p>
+  </section>
+
+  <section>
+    <h2>2. Optional AI Features (Google Gemini API)</h2>
+    <p>When you use <strong>"Scan my notes"</strong> (a photo or PDF you select) or an <strong>AI priority suggestion</strong>, the selected text, photo, or PDF is sent to <strong>Google's Gemini API</strong> for processing.</p>
+    <ul>
+      <li><strong>One-time processing only.</strong> The request is processed on the spot and the result is shown to you. Nothing is sent when AI features are not in use.</li>
+      <li><strong>Not used for training.</strong> Per Google's standard Gemini API terms, data sent through the API is <strong>not used to train Google's AI models</strong>.</li>
+      <li><strong>Retention.</strong> Google may temporarily retain prompts and responses for up to 30 days for abuse and quality monitoring under its standard Gemini API data policies. We do not store or retain any AI payloads ourselves — no cache, no logs, no copies beyond the local file you chose.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. App Permissions</h2>
+    <ul>
+      <li><strong>Internet / Network state</strong> — used <strong>exclusively</strong> by the optional AI features above.</li>
+      <li><strong>Notifications (Android 13+)</strong> — used <strong>strictly</strong> for your local deadline reminders.</li>
+      <li><strong>Photos / Files</strong> — accessed <strong>only via the system file picker</strong> when you choose a photo or PDF to scan. The app never scans your photo gallery, and no storage permission is requested.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Data Control &amp; Deletion</h2>
+    <p>You retain full control over your data:</p>
+    <ul>
+      <li><strong>Delete individual items</strong> anytime from a requirement's detail screen.</li>
+      <li><strong>Clear all stored data</strong> via Settings → Data → <strong>Clear all requirements</strong> (a one-time undo is offered immediately after).</li>
+      <li><strong>Clear completed items</strong> via Settings → Data → <strong>Clear completed</strong>.</li>
+      <li><strong>Uninstalling Duesday</strong> completely removes all local app data from your device. (If you've previously enabled Android's automatic app-data backup, a recent copy may exist in your Google account backup.)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>5. Children</h2>
+    <p>DUESDAY is designed for students and does not collect personal information. It has no accounts, no chat, and no public content. The only third-party interaction is the optional AI scanner, which processes a user-selected image/PDF or text on demand.</p>
+  </section>
+
+  <section>
+    <h2>6. Changes to This Policy</h2>
+    <p>If this policy changes, the Effective Date above will be revised and the updated policy will appear in the app (Settings → About → Privacy Policy).</p>
+  </section>
+
+  <section>
+    <h2>7. Contact</h2>
+    <p>Questions about this policy or your data? Reach us at <strong>support@duesday.app</strong>.</p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Duesday · <a href="#">Back to top</a></p>
+</footer>
+
+</body>
+</html>
